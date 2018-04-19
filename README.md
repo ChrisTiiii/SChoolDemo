@@ -4,5 +4,6 @@
 
 功能描述如下图：
 ![image](http://github.com/ChrisTiiii/SChoolDemo/blob/master/screenshots/function.jpg)
+![image](http://github.com/ChrisTiiii/SChoolDemo/screenshots/function.jpg)
 实现样例如下图：
 ![image](http://github.com/ChrisTiiii/SChoolDemo/blob/master/screenshots/locationScreen.jpg)
