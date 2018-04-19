@@ -3,6 +3,6 @@
 
 
 功能描述如下图：
-![image](http://github.com/ChrisTiiii/SChoolDemo/screenshots/function.jpg)
+![image](http://github.com/ChrisTiiii/master/SChoolDemo/screenshots/function.jpg)
 实现样例如下图：
 ![image](http://github.com/ChrisTiiii/SChoolDemo/screenshots/locationScreen.jpg)
