@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">校园通</string>
+    <string name="app_Title">校园通</string>
+    <string name="tab_menu_SheBei">设备</string>
+    <string name="tab_menu_Map">地图</string>
+    <string name="tab_menu_add">添加</string>
+    <string name="tab_menu_Me">下载</string>
+
+
+    <string name="Name">Name</string>
+    <string name="UUID">UUID</string>
+    <string name="Major">Major</string>
+    <string name="Minor">Minor</string>
+    <string name="X">虚拟坐标X</string>
+    <string name="Y">虚拟坐标Y</string>
+    <string name="save">保存</string>
+    <string name="delete">清空</string>
+</resources>

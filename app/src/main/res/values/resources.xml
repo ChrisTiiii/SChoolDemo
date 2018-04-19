@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="school_buildings">
+        <item>A楼:文化创意学院</item>
+        <item>B楼</item>
+        <item>C楼:公共课教学楼</item>
+        <item>D楼:中德机电学院</item>
+        <item>E楼:外语与公共教育学院</item>
+        <item>F楼:尚德光伏学院</item>
+        <item>G楼:办公楼</item>
+        <item>H楼:办公楼</item>
+        <item>I楼:教学楼</item>
+        <item>J楼:物联网与软件技术学院和中德机电学院</item>
+        <item>K楼:文化创意学院、物联网与软件技术学院实训地</item>
+        <item>L楼:物联网与软件技术学院、中德机电学院</item>
+        <item>M楼:办公楼</item>
+        <item>篮球场:篮球场分三个大场区</item>
+        <item>操场:田径场与足球场</item>
+        <item>网球场:有两块场地</item>
+        <item>医务室</item>
+        <item>食堂:分一食堂和二食堂</item>
+        <item>美食城:三食堂</item>
+        <item>图书馆:1至6楼</item>
+        <item>宿舍1至3号:男生宿舍楼</item>
+        <item>宿舍4至6号:女生宿舍楼</item>
+        <item>宿舍7至号:男生宿舍楼</item>
+        <item>宿舍10至12号:10至11女生宿舍楼/12男生宿舍楼</item>
+
+
+
+    </string-array>
+
+</resources>

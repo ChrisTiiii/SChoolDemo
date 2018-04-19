@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.juicekaaa.schooldemo.MainActivity">
+
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/ly_top_bar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="48dp"-->
+    <!--android:background="@color/bg_topbar">-->
+
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:paddingTop="4sp"-->
+    <!--android:textColor="#ffffff"-->
+    <!--android:text="@string/app_Title"-->
+    <!--android:textSize="28dp" />-->
+
+    <!--</RelativeLayout>-->
+
+    <FrameLayout
+        android:id="@+id/ly_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+        <!--android:layout_above="@id/ly_tab_bar"-->
+        <!--android:layout_below="@id/ly_top_bar">-->
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.01"
+        android:background="#ccc">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tab_menu_SheBei"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_page1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/tab_menu_SheBei"
+            android:textColor="@color/grey"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tab_menu_Map"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_page2"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/tab_menu_Map"
+            android:textColor="@color/grey"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tab_menu_Add"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_page3"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/tab_menu_add"
+            android:textColor="@color/grey"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tab_menu_Me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/tab_menu_page4"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/tab_menu_Me"
+            android:textColor="@color/grey"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

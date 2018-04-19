@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ly_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/bg_topbar"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="4sp"
+            android:text="@string/tab_menu_Map"
+            android:textColor="#ffffff"
+            android:textSize="28dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/map_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@mipmap/school_map1">
+
+        <ImageView
+            android:id="@+id/tuding"
+            android:layout_width="28dp"
+            android:layout_height="42dp"
+            android:src="@mipmap/tuding" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp">
+
+            <ImageView
+                android:id="@+id/default_down"
+                android:layout_width="300dp"
+                android:layout_height="240dp"
+                android:src="@mipmap/school_map2" />
+
+            <TextView
+                android:id="@+id/map_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="没有想关信息"
+                android:visibility="invisible" />
+
+            <VideoView
+                android:id="@+id/map_video"
+                android:layout_width="300dp"
+                android:layout_height="240dp"
+                android:paddingTop="20dp"
+                android:visibility="invisible" />
+
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+            <Button
+                android:id="@+id/map_btn_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:drawableTop="@drawable/tab_picture"
+                android:paddingTop="7dp"
+                android:text="图片"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/map_btn_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:drawableTop="@drawable/tab_video"
+                android:paddingTop="7dp"
+                android:text="视频"
+                android:textSize="10sp" />
+
+
+            <Button
+                android:id="@+id/map_btn_mp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:drawableTop="@drawable/tab_voice"
+
+                android:paddingTop="7dp"
+                android:text="音频"
+                android:textSize="10sp" />
+
+
+            <Button
+                android:id="@+id/map_btn_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:drawableTop="@drawable/tab_page"
+                android:paddingTop="7dp"
+                android:text="文字"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
